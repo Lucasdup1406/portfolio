@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+    background-size: 100%;
+    margin: 0;padding: 0;
+    font-family: 'Roboto';
+}
+
+.menu{
+    background-color: rgba(16, 16, 16, 0.3);
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+}
+.logo{
+    margin: 0;padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.m-left{
+    float: left;
+}
+.m-right{
+    float: right;
+}
+.inner{
+    width: 80%;
+    margin: auto;
+}
+.m-link{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.m-link:hover{
+    padding-bottom: 3px ;
+    border-color: #fff;
+}
+.ma-link i{
+    margin-right: 5px;
+}
+h1{
+    text-align: center;
+    color: rgb(28, 27, 27);
+    margin: 7%;
+    font-size: 50px;
+}
+h2{
+    text-align: left;
+    color: rgba(16, 16 , 16, 0.3);
+    margin-left: 4%;
+}
+p{
+    margin-left: 2%;
+}
+img{
+    margin-left: 5%;
+    width: 30%;
+    float: left;
+}
+.Bannière HR{
+    align-items: center;
+    color: rgb(16, 16, 16,0.3);
+    width: 650px;
+    border: solid;
+    margin-left: 6.5%;
+    margin-bottom: 2%;
+}
+.Bannière h1{
+    font-size: 60px;
+    margin-top: 15%;
+    margin-left: -35%;
+    margin-bottom: 1%;
+    color: rgba(16, 16, 16, 0.3);
+}
+.Bannière h2{
+    font-family: 'Roboto';
+    color: black;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    text-decoration: navy;
+}
+p{
+    margin-left: 2%;
+    margin-right: 50%;
+    text-align: center;
+}
+.SISR{
+    margin-left: 2%;
+    margin-right: 0%;
+    text-align: center;
+    width: 1000px;
+}
+.SISR h2{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 50%;
+    
+}
+.SISR ul{
+    text-align: left;
+    margin-left: 2%;
+}
+.SISR img{
+    float: right;
+    width: 500px;
+    align-items: center;
+    margin-right: -230px;
+}
+.SLAM{
+    margin-right: 0px;
+    margin-left: 500px;
+    width: 650px;
+    float: right;
+}
+.SLAM h2{
+    margin-right: 700px;
+    margin-left: 43.5%;
+    text-align: center;
+}
+.SLAM ul{
+    margin-left: 20px;
+}
+.SLAM img{
+    float: left;
+    width: 500px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -650px;
+}
+.SLAM p{
+    margin-left: 2%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.Profil h1{
+    text-align: center;
+    color: rgb(28, 27, 27);
+    margin: 7%;
+    font-size: 50px;
+}
+.Profil h2{
+    text-align: left;
+    color: rgba(16, 16 , 16, 0.3);
+    margin-left: 4%;
+    margin-bottom: 1%;
+    font-size: 2em;
+    margin-top: 14px;
+}
+.Profil p{
+    margin-left: 2%;
+    margin-right: 50%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.Profil a{
+    color: black;
+}
+.Profil li{
+    margin-left: 75px;
+}
+.Administratif h1{
+    text-align: center;
+    color: rgb(28, 27, 27);
+    margin: 7%;
+    font-size: 50px;
+}
+.Compétence h2{
+    margin-left: 2%;
+    margin-right: 50%;
+}
+.Compétence img{
+    width: 800px;
+    margin-bottom: 30px;
+}
+.Compétence embed{
+    margin-left: 2%;
+    margin-right: 50%;
+    margin-top: 20px;
+    width: 1000px;
+    height: 700px;
+}
+.Compétence h2{
+    margin-top: 50px;
+}
+.Veille hr{
+    align-items: center;
+    color: rgb(255, 0, 0);
+    width: 625px;
+    border: solid;
+    margin-right: 380px;
+    margin-bottom: 20px;
+}
+.Veille h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.Veille p{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
